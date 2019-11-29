@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/Desktop/Assignment5/timingcircuit.sch 

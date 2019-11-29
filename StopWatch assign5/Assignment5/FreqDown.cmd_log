@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FreqDown.vhf -w /home/dual/cs5180411/Desktop/Assignment5/FreqDown.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FreqDown.vhf -w /home/dual/cs5180411/Desktop/Assignment5/FreqDown.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FreqDown.vhf -w /home/dual/cs5180411/Desktop/Assignment5/FreqDown.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FreqDown.vhf -w /home/dual/cs5180411/Desktop/Assignment5/FreqDown.sch 

@@ -1,0 +1,50 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/dual/cs5180411/Desktop/Assignment5/assign5_isim_beh.exe -prj /home/dual/cs5180411/Desktop/Assignment5/assign5_beh.prj work.assign5 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+WARNING:Simulator:1010 - One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/timingcircuit.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/symbol3.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/modulo10.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/Modulo6.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/FreqDown.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/assign4.vhf" into library work
+Parsing VHDL file "/home/dual/cs5180411/Desktop/Assignment5/assign5.vhf" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 113640 KB
+Fuse CPU Usage: 1100 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture behavioral of entity FTC_HXILINX_assign5 [\FTC_HXILINX_assign5('0')\]
+Compiling architecture and4b2_v of entity AND4B2 [and4b2_default]
+Compiling architecture and2b1_v of entity AND2B1 [and2b1_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture and3_v of entity AND3 [and3_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture behavioral of entity modulo10_MUSER_assign5 [modulo10_muser_assign5_default]
+Compiling architecture and4b1_v of entity AND4B1 [and4b1_default]
+Compiling architecture behavioral of entity Modulo6_MUSER_assign5 [modulo6_muser_assign5_default]
+Compiling architecture m4_1e_hxilinx_assign5_v of entity M4_1E_HXILINX_assign5 [m4_1e_hxilinx_assign5_default]
+Compiling architecture d2_4e_hxilinx_assign5_v of entity D2_4E_HXILINX_assign5 [d2_4e_hxilinx_assign5_default]
+Compiling architecture behavioral of entity timingcircuit_MUSER_assign5 [timingcircuit_muser_assign5_defa...]
+Compiling architecture d4_16e_hxilinx_assign5_v of entity D4_16E_HXILINX_assign5 [d4_16e_hxilinx_assign5_default]
+Compiling architecture or6_hxilinx_assign5_v of entity OR6_HXILINX_assign5 [or6_hxilinx_assign5_default]
+Compiling architecture or5_v of entity OR5 [or5_default]
+Compiling architecture behavioral of entity symbol3_MUSER_assign5 [symbol3_muser_assign5_default]
+Compiling architecture behavioral of entity assign4_MUSER_assign5 [assign4_muser_assign5_default]
+Compiling architecture behavioral of entity FreqDown_MUSER_assign5 [freqdown_muser_assign5_default]
+Compiling architecture behavioral of entity FJKC_HXILINX_assign5 [\FJKC_HXILINX_assign5('0')\]
+Compiling architecture behavioral of entity assign5
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 47 VHDL Units
+Built simulation executable /home/dual/cs5180411/Desktop/Assignment5/assign5_isim_beh.exe
+Fuse Memory Usage: 686948 KB
+Fuse CPU Usage: 1200 ms
+GCC CPU Usage: 530 ms

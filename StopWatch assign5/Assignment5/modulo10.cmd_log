@@ -1,0 +1,3 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl modulo10.vhf -w /home/dual/cs5180411/Desktop/Assignment5/modulo10.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl modulo10.vhf -w /home/dual/cs5180411/Desktop/Assignment5/modulo10.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl modulo10.vhf -w /home/dual/cs5180411/Desktop/Assignment5/modulo10.sch 

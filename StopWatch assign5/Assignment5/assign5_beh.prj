@@ -1,0 +1,7 @@
+vhdl work "timingcircuit.vhf"
+vhdl work "symbol3.vhf"
+vhdl work "modulo10.vhf"
+vhdl work "Modulo6.vhf"
+vhdl work "FreqDown.vhf"
+vhdl work "assign4.vhf"
+vhdl work "assign5.vhf"
