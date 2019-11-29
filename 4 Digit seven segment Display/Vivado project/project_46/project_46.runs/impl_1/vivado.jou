@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Aug 30 14:17:49 2019
+# Process ID: 12327
+# Current directory: /home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/project_46/project_46.runs/impl_1
+# Command line: vivado -log assign4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source assign4.tcl -notrace
+# Log file: /home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/project_46/project_46.runs/impl_1/assign4.vdi
+# Journal file: /home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/project_46/project_46.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source assign4.tcl -notrace

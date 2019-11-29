@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1567154839">
+  <File Type="VDS-TIMING-PB" Name="assign4_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="assign4_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="assign4.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="assign4_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="assign4_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="assign4_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="assign4.vds"/>
+  <File Type="PA-TCL" Name="assign4.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/symbol3.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/symbol3.vhf"/>
+        <Attr Name="ImportTime" Val="1565962809"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/assign4.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/assign4.vhf"/>
+        <Attr Name="ImportTime" Val="1565962711"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/timingcircuit.vhf">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/timingcircuit.vhf"/>
+        <Attr Name="ImportTime" Val="1565962757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="assign4"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Basysassign4.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/Basysassign4.xdc"/>
+        <Attr Name="ImportTime" Val="1565959231"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
