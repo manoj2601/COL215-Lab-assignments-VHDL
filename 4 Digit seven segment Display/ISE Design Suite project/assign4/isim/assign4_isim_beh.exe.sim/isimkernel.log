@@ -1,0 +1,28 @@
+Command line:
+   assign4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54246
+
+Fri Aug 30 14:13:52 2019
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 236.855 Meg
+
+ Total Signals          : 366
+ Total Nets             : 153
+ Total Signal Drivers   : 93
+ Total Blocks           : 54
+ Total Primitive Blocks : 51
+ Total Processes        : 93
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 652
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 312.357 Meg
+
+Fri Aug 30 14:14:06 2019
+

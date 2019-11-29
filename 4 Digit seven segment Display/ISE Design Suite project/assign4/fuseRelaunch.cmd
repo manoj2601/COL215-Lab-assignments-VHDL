@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4_isim_beh.exe" -prj "/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4_beh.prj" "work.assign4" 

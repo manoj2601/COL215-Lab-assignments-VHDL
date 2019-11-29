@@ -1,0 +1,5 @@
+MODULE assign4
+	SUBMODULE symbol3
+		INSTANCE XLXI_13
+	SUBMODULE timingcircuit
+		INSTANCE XLXI_18

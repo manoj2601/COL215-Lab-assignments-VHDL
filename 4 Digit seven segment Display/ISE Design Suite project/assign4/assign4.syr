@@ -1,0 +1,540 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: assign4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "assign4.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "assign4"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-fgg484
+
+---- Source Options
+Top Module Name                    : assign4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/dual/cs5180411/assign4/symbol3.vhf" into library work
+Parsing entity <D4_16E_HXILINX_symbol3>.
+Parsing architecture <D4_16E_HXILINX_symbol3_V> of entity <d4_16e_hxilinx_symbol3>.
+Parsing entity <OR6_HXILINX_symbol3>.
+Parsing architecture <OR6_HXILINX_symbol3_V> of entity <or6_hxilinx_symbol3>.
+Parsing entity <symbol3>.
+Parsing architecture <BEHAVIORAL> of entity <symbol3>.
+Parsing VHDL file "/home/dual/cs5180411/assign4/timingcircuit.vhf" into library work
+Parsing entity <FTC_HXILINX_timingcircuit>.
+Parsing architecture <Behavioral> of entity <ftc_hxilinx_timingcircuit>.
+Parsing entity <timingcircuit>.
+Parsing architecture <BEHAVIORAL> of entity <timingcircuit>.
+Parsing VHDL file "/home/dual/cs5180411/assign4/assign4.vhf" into library work
+Parsing entity <FTC_HXILINX_assign4>.
+Parsing architecture <Behavioral> of entity <ftc_hxilinx_assign4>.
+Parsing entity <M4_1E_HXILINX_assign4>.
+Parsing architecture <M4_1E_HXILINX_assign4_V> of entity <m4_1e_hxilinx_assign4>.
+Parsing entity <D2_4E_HXILINX_assign4>.
+Parsing architecture <D2_4E_HXILINX_assign4_V> of entity <d2_4e_hxilinx_assign4>.
+Parsing entity <timingcircuit_MUSER_assign4>.
+Parsing architecture <BEHAVIORAL> of entity <timingcircuit_muser_assign4>.
+Parsing entity <assign4>.
+Parsing architecture <BEHAVIORAL> of entity <assign4>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <assign4> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <M4_1E_HXILINX_assign4> (architecture <M4_1E_HXILINX_assign4_V>) from library <work>.
+INFO:HDLCompiler:679 - "/home/dual/cs5180411/assign4/assign4.vhf" Line 93. Case statement is complete. others clause is never selected
+
+Elaborating entity <symbol3> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <D4_16E_HXILINX_symbol3> (architecture <D4_16E_HXILINX_symbol3_V>) from library <work>.
+INFO:HDLCompiler:679 - "/home/dual/cs5180411/assign4/symbol3.vhf" Line 81. Case statement is complete. others clause is never selected
+
+Elaborating entity <OR6_HXILINX_symbol3> (architecture <OR6_HXILINX_symbol3_V>) from library <work>.
+
+Elaborating entity <timingcircuit_MUSER_assign4> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <FTC_HXILINX_assign4> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <D2_4E_HXILINX_assign4> (architecture <D2_4E_HXILINX_assign4_V>) from library <work>.
+INFO:HDLCompiler:679 - "/home/dual/cs5180411/assign4/assign4.vhf" Line 132. Case statement is complete. others clause is never selected
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <assign4>.
+    Related source file is "/home/dual/cs5180411/assign4/assign4.vhf".
+    Set property "HU_SET = XLXI_1_53" for instance <XLXI_1>.
+    Set property "HU_SET = XLXI_3_54" for instance <XLXI_3>.
+    Set property "HU_SET = XLXI_4_55" for instance <XLXI_4>.
+    Set property "HU_SET = XLXI_5_56" for instance <XLXI_5>.
+    Set property "HU_SET = XLXI_15_57" for instance <XLXI_15>.
+    Summary:
+	no macro.
+Unit <assign4> synthesized.
+
+Synthesizing Unit <M4_1E_HXILINX_assign4>.
+    Related source file is "/home/dual/cs5180411/assign4/assign4.vhf".
+    Found 1-bit 4-to-1 multiplexer for signal <S1_D3_Mux_0_o> created at line 88.
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <M4_1E_HXILINX_assign4> synthesized.
+
+Synthesizing Unit <symbol3>.
+    Related source file is "/home/dual/cs5180411/assign4/symbol3.vhf".
+    Set property "HU_SET = XLXI_1_35" for instance <XLXI_1>.
+    Set property "HU_SET = XLXI_4_36" for instance <XLXI_4>.
+    Set property "HU_SET = XLXI_7_37" for instance <XLXI_7>.
+INFO:Xst:3210 - "/home/dual/cs5180411/assign4/symbol3.vhf" line 225: Output port <D8> of the instance <XLXI_1> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <symbol3> synthesized.
+
+Synthesizing Unit <D4_16E_HXILINX_symbol3>.
+    Related source file is "/home/dual/cs5180411/assign4/symbol3.vhf".
+    Found 16x16-bit Read Only RAM for signal <d_tmp>
+    Summary:
+	inferred   1 RAM(s).
+Unit <D4_16E_HXILINX_symbol3> synthesized.
+
+Synthesizing Unit <OR6_HXILINX_symbol3>.
+    Related source file is "/home/dual/cs5180411/assign4/symbol3.vhf".
+    Summary:
+	no macro.
+Unit <OR6_HXILINX_symbol3> synthesized.
+
+Synthesizing Unit <timingcircuit_MUSER_assign4>.
+    Related source file is "/home/dual/cs5180411/assign4/assign4.vhf".
+    Set property "HU_SET = XLXI_17_38" for instance <XLXI_17>.
+    Set property "HU_SET = XLXI_18_39" for instance <XLXI_18>.
+    Set property "HU_SET = XLXI_19_40" for instance <XLXI_19>.
+    Set property "HU_SET = XLXI_20_41" for instance <XLXI_20>.
+    Set property "HU_SET = XLXI_21_42" for instance <XLXI_21>.
+    Set property "HU_SET = XLXI_22_43" for instance <XLXI_22>.
+    Set property "HU_SET = XLXI_23_44" for instance <XLXI_23>.
+    Set property "HU_SET = XLXI_24_45" for instance <XLXI_24>.
+    Set property "HU_SET = XLXI_25_46" for instance <XLXI_25>.
+    Set property "HU_SET = XLXI_26_47" for instance <XLXI_26>.
+    Set property "HU_SET = XLXI_27_48" for instance <XLXI_27>.
+    Set property "HU_SET = XLXI_28_49" for instance <XLXI_28>.
+    Set property "HU_SET = XLXI_29_50" for instance <XLXI_29>.
+    Set property "HU_SET = XLXI_30_51" for instance <XLXI_30>.
+    Set property "HU_SET = XLXI_31_52" for instance <XLXI_31>.
+    Summary:
+	no macro.
+Unit <timingcircuit_MUSER_assign4> synthesized.
+
+Synthesizing Unit <FTC_HXILINX_assign4>.
+    Related source file is "/home/dual/cs5180411/assign4/assign4.vhf".
+        INIT = '0'
+    Found 1-bit register for signal <q_tmp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FTC_HXILINX_assign4> synthesized.
+
+Synthesizing Unit <D2_4E_HXILINX_assign4>.
+    Related source file is "/home/dual/cs5180411/assign4/assign4.vhf".
+    Found 4x4-bit Read Only RAM for signal <d_tmp>
+    Summary:
+	inferred   1 RAM(s).
+Unit <D2_4E_HXILINX_assign4> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x16-bit single-port Read Only RAM                   : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Registers                                            : 15
+ 1-bit register                                        : 15
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 4-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <D2_4E_HXILINX_assign4>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_d_tmp> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(A1,A0)>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <d_tmp>         |          |
+    -----------------------------------------------------------------------
+Unit <D2_4E_HXILINX_assign4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <D4_16E_HXILINX_symbol3>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_d_tmp> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(A3,A2,A1,A0)> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <d_tmp>         |          |
+    -----------------------------------------------------------------------
+Unit <D4_16E_HXILINX_symbol3> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 16x16-bit single-port distributed Read Only RAM       : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 4
+ 1-bit 4-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <assign4> ...
+
+Optimizing unit <timingcircuit_MUSER_assign4> ...
+
+Optimizing unit <symbol3> ...
+
+Optimizing unit <M4_1E_HXILINX_assign4> ...
+
+Optimizing unit <FTC_HXILINX_assign4> ...
+
+Optimizing unit <D4_16E_HXILINX_symbol3> ...
+
+Optimizing unit <OR6_HXILINX_symbol3> ...
+
+Optimizing unit <D2_4E_HXILINX_assign4> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block assign4, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : assign4.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 47
+#      GND                         : 1
+#      INV                         : 15
+#      LUT2                        : 4
+#      LUT4                        : 15
+#      LUT6                        : 6
+#      OR4                         : 3
+#      OR5                         : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 15
+#      FDCE                        : 15
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 16
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45fgg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              15  out of  54576     0%  
+ Number of Slice LUTs:                   40  out of  27288     0%  
+    Number used as Logic:                40  out of  27288     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     55
+   Number with an unused Flip Flop:      40  out of     55    72%  
+   Number with an unused LUT:            15  out of     55    27%  
+   Number of fully used LUT-FF pairs:     0  out of     55     0%  
+   Number of unique control sets:        15
+
+IO Utilization: 
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    316     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.190ns (Maximum Frequency: 456.663MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.708ns
+   Maximum combinational path delay: 8.213ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 2.190ns (frequency: 456.663MHz)
+  Total number of paths / destination ports: 29 / 29
+-------------------------------------------------------------------------
+Delay:               2.190ns (Levels of Logic = 1)
+  Source:            XLXI_14/XLXI_30/q_tmp (FF)
+  Destination:       XLXI_14/XLXI_30/q_tmp (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_14/XLXI_30/q_tmp to XLXI_14/XLXI_30/q_tmp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.447   0.856  q_tmp (q_tmp)
+     INV:I->O              1   0.206   0.579  q_tmp_INV_3_o1_INV_0 (q_tmp_INV_3_o)
+     FDCE:D                    0.102          q_tmp
+    ----------------------------------------
+    Total                      2.190ns (0.755ns logic, 1.435ns route)
+                                       (34.5% logic, 65.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 280 / 11
+-------------------------------------------------------------------------
+Offset:              7.708ns (Levels of Logic = 7)
+  Source:            XLXI_14/XLXI_31/q_tmp (FF)
+  Destination:       A (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_14/XLXI_31/q_tmp to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.447   1.194  q_tmp (q_tmp)
+     end scope: 'XLXI_14/XLXI_31:Q'
+     begin scope: 'XLXI_5:S0'
+     LUT6:I0->O           15   0.203   1.229  Mmux_O11 (O)
+     end scope: 'XLXI_5:O'
+     begin scope: 'XLXI_13/XLXI_1:A3'
+     LUT4:I0->O            5   0.203   0.962  Mram_d_tmp111 (D1)
+     end scope: 'XLXI_13/XLXI_1:D1'
+     OR4:I2->O             1   0.320   0.579  XLXI_13/XLXI_9 (G_OBUF)
+     OBUF:I->O                 2.571          G_OBUF (G)
+    ----------------------------------------
+    Total                      7.708ns (3.744ns logic, 3.963ns route)
+                                       (48.6% logic, 51.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 544 / 7
+-------------------------------------------------------------------------
+Delay:               8.213ns (Levels of Logic = 7)
+  Source:            d3 (PAD)
+  Destination:       A (PAD)
+
+  Data Path: d3 to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.924  d3_IBUF (d3_IBUF)
+     begin scope: 'XLXI_5:D3'
+     LUT6:I1->O           15   0.203   1.229  Mmux_O11 (O)
+     end scope: 'XLXI_5:O'
+     begin scope: 'XLXI_13/XLXI_1:A3'
+     LUT4:I0->O            5   0.203   0.962  Mram_d_tmp111 (D1)
+     end scope: 'XLXI_13/XLXI_1:D1'
+     OR4:I2->O             1   0.320   0.579  XLXI_13/XLXI_9 (G_OBUF)
+     OBUF:I->O                 2.571          G_OBUF (G)
+    ----------------------------------------
+    Total                      8.213ns (4.519ns logic, 3.694ns route)
+                                       (55.0% logic, 45.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    2.190|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.25 secs
+ 
+--> 
+
+
+Total memory usage is 403820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

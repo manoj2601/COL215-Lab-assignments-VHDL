@@ -1,0 +1,4 @@
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4.vhf,-w,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/symbol3.vhf,-w,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/symbol3.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/timingcircuit.vhf,-w,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/timingcircuit.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4.vhf,-w,/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4.sch

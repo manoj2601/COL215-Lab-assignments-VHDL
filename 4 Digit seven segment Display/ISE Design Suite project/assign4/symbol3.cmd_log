@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym symbol3 /home/dual/cs5180411/Desktop/symbol3.sch /home/dual/cs5180411/assign4/symbol3.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl symbol3.vhf -w /home/dual/cs5180411/Desktop/symbol3.sch 

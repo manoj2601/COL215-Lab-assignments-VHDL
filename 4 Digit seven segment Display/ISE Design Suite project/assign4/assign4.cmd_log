@@ -1,0 +1,15 @@
+sch2sym -intstyle ise -family spartan6 -refsym assign4 /home/dual/cs5180411/assign4/assign4.sch /home/dual/cs5180411/assign4/assign4.sym 
+sch2sym -intstyle ise -family spartan6 -refsym assign4 /home/dual/cs5180411/assign4/assign4.sch /home/dual/cs5180411/assign4/assign4.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym assign4 /home/dual/cs5180411/assign4/assign4.sch /home/dual/cs5180411/assign4/assign4.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym assign4 /home/dual/cs5180411/assign4/assign4.sch /home/dual/cs5180411/assign4/assign4.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w /home/dual/cs5180411/assign4/assign4.sch 
+xst -intstyle ise -ifn "/home/dual/cs5180411/assign4/assign4.xst" -ofn "/home/dual/cs5180411/assign4/assign4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-fgg484-3 assign4.ngc assign4.ngd  
+map -intstyle ise -p xc6slx45-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o assign4_map.ncd assign4.ngd assign4.pcf 
+par -w -intstyle ise -ol high -mt off assign4_map.ncd assign4.ncd assign4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml assign4.twx assign4.ncd -o assign4.twr assign4.pcf 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w /home/dual/cs5180411/assign4/assign4.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w /home/dual/cs5180411/assign4/assign4.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w /home/dual/cs5180411/assign4/assign4.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w /home/dual/cs5180411/assign4/assign4.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl assign4.vhf -w {/home/dual/cs5180411/Desktop/Assignment 4 using assign3 real/assign4/assign4.sch} 

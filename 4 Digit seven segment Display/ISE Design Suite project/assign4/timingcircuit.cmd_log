@@ -1,0 +1,9 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym timingcircuit /home/dual/cs5180411/assign4/timingcircuit.sch /home/dual/cs5180411/assign4/timingcircuit.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym timingcircuit /home/dual/cs5180411/assign4/timingcircuit.sch /home/dual/cs5180411/assign4/timingcircuit.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/assign4/timingcircuit.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/assign4/timingcircuit.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/assign4/timingcircuit.sch 
+sch2sym -intstyle ise -family spartan6 -w -refsym timingcircuit /home/dual/cs5180411/assign4/timingcircuit.sch /home/dual/cs5180411/assign4/timingcircuit.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym timingcircuit /home/dual/cs5180411/assign4/timingcircuit.sch /home/dual/cs5180411/assign4/timingcircuit.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/assign4/timingcircuit.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl timingcircuit.vhf -w /home/dual/cs5180411/assign4/timingcircuit.sch 
