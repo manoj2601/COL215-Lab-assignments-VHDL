@@ -8,7 +8,7 @@ memory module for downloading (PC to BASYS-3) and uploading files (BASYS-3 to PC
 ## Details:
 Suggested block diagram of the system to be implemented is shown below.
 
-![Image of circuit](https://github.com/manoj2601/-File-download-upload-through-Serial-Receiver-Transmitter/blob/master/circuit%20diagram.JPG)
+![Image of circuit](circuit%20diagram.JPG)
 
 Here it is assumed that the receiver and transmitter have outputs “rx_full” and
 “tx_empty”, which are defined as follows (refer to slides of Lecture 20 for definition of
@@ -31,7 +31,7 @@ memory addresses where data received by the receiver is written (wr_addr) and re
 of Lecture 20 here, signals wr_addr, read rd_addr and wen are connected to addra, addrb
 and wea, of memory, respectively. The ASM chart shown below describes operation of
 this circuit.
-![Image of ASM](https://github.com/manoj2601/-File-download-upload-through-Serial-Receiver-Transmitter/blob/master/asm%20chart%20of%20timing%20circuit(controller).JPG)
+![Image of ASM](asm%20chart%20of%20timing%20circuit(controller).JPG)
 
 Here receiving and transmitting are mutually exclusive. This is called “simplex”
 operation. In contrast to this, “duplex” operation (not required to be implemented)
